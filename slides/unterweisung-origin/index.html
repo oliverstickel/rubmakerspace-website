@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Präsentation</title>
+
+    <meta name="description" content="Eine Präsentation aus dem RUB-Makerspace">
+    <meta name="author" content="RUB-Makerspace">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../lib/reveal/dist/reset.css">
+    <link rel="stylesheet" href="../lib/reveal/dist/reveal.css">
+    <link rel="stylesheet" href="../lib/reveal/dist/theme/simple.css" id="theme">
+
+    <link rel="stylesheet" href="../lib/reveal/plugin/chalkboard/style.css">
+    <link rel="stylesheet" href="../lib/reveal/plugin/customcontrols/style.css">
+
+  
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="../lib/reveal/plugin/highlight/monokai.css" id="highlight-theme">
+
+    <link rel="stylesheet" href="../lib/reveal/plugin/subtitles/subtitles.css">
+
+  </head>
+
+  <body>
+
+        <div class="reveal">
+            <div class="slides">
+              <section
+                data-markdown="slides.md"
+                data-separator="^\r?\n---\r?\n$"
+                data-separator-vertical="^\r?\n\|\|\|\r?\n$"
+                data-charset="UTF-8">
+              </section>
+            </div>
+        </div>
+
+        <script src="../lib/reveal/dist/reveal.js"></script>
+        <script src="../lib/reveal/plugin/zoom/zoom.js"></script>
+        <script src="../lib/reveal/plugin/notes/notes.js"></script>
+        <script src="../lib/reveal/plugin/search/search.js"></script>
+        <script src="../lib/reveal/plugin/markdown/markdown.js"></script>
+        <script src="../lib/reveal/plugin/highlight/highlight.js"></script>
+        <script src="../lib/reveal/plugin/menu/menu.js"></script>
+        <script src="../lib/reveal/plugin/toolbar/toolbar.js"></script>
+        <script src="../lib/reveal/plugin/customcontrols/plugin.js"></script>
+        <script src="../lib/reveal/plugin/chalkboard/plugin.js"></script>
+        <script src="../lib/reveal/plugin/audio-slideshow/plugin.js"></script>
+        <script src="../lib/reveal/plugin/audio-slideshow/recorder.js"></script>
+        <script src="../lib/reveal/plugin/audio-slideshow/RecordRTC.js"></script>
+        <script src="../lib/reveal/plugin/verticator/verticator.js"></script>   
+
+        <script>
+    
+          // Also available as an ES module, see:
+          // https://revealjs.com/initialization/
+          Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+            slideNumber: 'c/t',            
+            history: true,
+            hideCursorTime: 3000,
+            transition: "fade",
+            menu: { 
+              useTextContentForMissingTitles: true,
+              themes: true,
+              transitions: true,
+              themesPath: '../lib/reveal/dist/theme/',
+              },
+           dependencies: [                
+                { src: '../lib/reveal/plugin/toolbar/toolbar.js' },
+                { src: '../lib/reveal/plugin/spotlight/spotlight.js' },
+                { src: '../lib/reveal/plugin/subtitles/subtitles.js', async: true },
+                { src: '../lib/reveal/plugin/countdown/countdown.js' },
+                { src: '../lib/reveal/plugin/quiz/js/quiz.js', async: true, callback: function() { prepareQuizzes({}); } }
+
+            ],
+
+          verticator: {
+              themetag: 'a',
+              skipuncounted: true,
+              offset: '3vmin',
+              tooltip: 'auto',
+              scale: 0.85,
+              csspath: ''
+              },
+
+           audio: {
+              prefix: 'audio/',   // audio files are stored in the "audio" folder
+              suffix: '.mp3',   // audio files have the ".ogg" ending
+              textToSpeechURL: null,  // the URL to the text to speech converter
+              defaultDuration: 5, // default duration in seconds if no audio is available
+              defaultAudios: true,  // try to play audios with names such as audio/1.2.ogg
+              playerOpacity: 0.3,  // opacity value of audio player if unfocused
+              playerStyle: 'position: fixed; bottom: 30px; left: 25%; width: 50%; height:65px; z-index: 33;', // style used for container of audio controls
+            },
+
+
+            spotlight: {
+
+                size: 75,
+
+                // toggle spotlight by holding down the mouse key
+                toggleSpotlightOnMouseDown: false,
+
+                // true: initially in presentation mode, will also be ture if this is not set and toggleSpotlightOnMouseDown is true
+                initialPresentationMode: false,
+
+
+                // true: disable selecting in presentation mode
+                disablingUserSelect: false,
+
+              // choose the cursor when spotlight is off and in presentation mode. Maybe "default"?
+              presentingCursor: 'default',                 
+
+            },
+            keyboard: { 
+                // alternative to toggleSpotlightOnMouseDown: 
+                // toggle spotlight by pressing key 'p'
+                76: function() { RevealSpotlight.toggleSpotlight() },
+
+                // enter/leave presentation mode by pressing key 'l'
+                75: function() { 
+                  RevealSpotlight.togglePresentationMode(); 
+                },
+            },            
+
+            toolbar: {
+              // Specifies where the toolbar will be shown: 'top' or 'bottom'
+              position: 'top',
+
+              // Add button to toggle fullscreen mode for the presentation
+              fullscreen: false,
+
+              // Add button to toggle the overview mode on and off
+              overview: false,
+
+              // Add button to pause (hide) the presentation display
+              pause: false,
+
+              // Add button to show the speaker notes
+              notes: false,
+
+              // Add button to show the help overlay
+              help: true,
+
+              // If true, the reveal.js-menu will be moved into the toolbar.
+              // Set to false to leave the menu on its own.
+              captureMenu: false,
+
+              // If true, the playback control will be moved into the toolbar.
+              // This is only relevant if the presentation is configured to autoSlide.
+              // Set to false to leave the menu on its own.
+              capturePlaybackControl: false,
+
+              // By default the menu will load it's own font-awesome library
+              // icons. If your presentation needs to load a different
+              // font-awesome library the 'loadIcons' option can be set to false
+              // and the menu will not attempt to load the font-awesome library.
+              loadIcons: true
+            },            
+            chalkboard: {
+                boardmarkerWidth: 3,
+                chalkWidth: 7,
+                chalkEffect: 1.0,
+                storage: null,
+                src: null,
+                readOnly: false,
+                transition: 500,
+                theme: "chalkboard",
+                rememberColor: true,
+                background: [ 'rgba(127,127,127,.1)' , path + 'img/blackboard.png' ],
+                grid: { color: 'rgb(50,50,10,0.5)', distance: 80, width: 2},
+                eraser: { src: path + 'img/sponge.png', radius: 20},
+                boardmarkers : [
+                        { color: 'rgba(100,100,100,1)', cursor: 'url(' + path + 'img/boardmarker-black.png), auto'},
+                        { color: 'rgba(30,144,255, 1)', cursor: 'url(' + path + 'img/boardmarker-blue.png), auto'},
+                        { color: 'rgba(220,20,60,1)', cursor: 'url(' + path + 'img/boardmarker-red.png), auto'},
+                        { color: 'rgba(50,205,50,1)', cursor: 'url(' + path + 'img/boardmarker-green.png), auto'},
+                        { color: 'rgba(255,140,0,1)', cursor: 'url(' + path + 'img/boardmarker-orange.png), auto'},
+                        { color: 'rgba(150,0,20150,1)', cursor: 'url(' + path + 'img/boardmarker-purple.png), auto'},
+                        { color: 'rgba(255,220,0,1)', cursor: 'url(' + path + 'img/boardmarker-yellow.png), auto'}
+                ],
+                chalks: [
+                        { color: 'rgba(255,255,255,0.5)', cursor: 'url(' + path + 'img/chalk-white.png), auto'},
+                        { color: 'rgba(96, 154, 244, 0.5)', cursor: 'url(' + path + 'img/chalk-blue.png), auto'},
+                        { color: 'rgba(237, 20, 28, 0.5)', cursor: 'url(' + path + 'img/chalk-red.png), auto'},
+                        { color: 'rgba(20, 237, 28, 0.5)', cursor: 'url(' + path + 'img/chalk-green.png), auto'},
+                        { color: 'rgba(220, 133, 41, 0.5)', cursor: 'url(' + path + 'img/chalk-orange.png), auto'},
+                        { color: 'rgba(220,0,220,0.5)', cursor: 'url(' + path + 'img/chalk-purple.png), auto'},
+                        { color: 'rgba(255,220,0,0.5)', cursor: 'url(' + path + 'img/chalk-yellow.png), auto'}
+                ]
+            },
+            customcontrols: {
+              controls: [
+                { icon: '<i class="fa fa-pen-square"></i>',
+                  title: 'Toggle chalkboard (B)',
+                  action: 'RevealChalkboard.toggleChalkboard();'
+                },
+                { icon: '<i class="fa fa-pen"></i>',
+                  title: 'Toggle notes canvas (C)',
+                  action: 'RevealChalkboard.toggleNotesCanvas();'
+                }
+              ]
+            },    
+            // Learn about plugins: https://revealjs.com/plugins/
+            // Diese Plugins aktivieren wenn Audio-Vertonung gewünscht ist: RevealAudioSlideshow, RevealAudioRecorder
+            plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMenu, RevealChalkboard, RevealCustomControls, Verticator]
+     
+          });
+    
+        </script>
+    
+      </body>
+    </html>
+    

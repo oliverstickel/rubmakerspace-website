@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: Corel DESIGNER -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40mm" height="34.9578mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1000 873.94"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0w {fill:#F5CA2B}
+    .fil1w {fill:#21251E}
+   ]]>
+  </style>
+ </defs>
+<symbol id="ISO_x0020_7010_x0020_W012" viewBox="1125 2259.77 1750 1529.4">
+ <polygon class="fil0w" points="2822.6,3736.31 1177.99,3736.31 2000.29,2312.03 "/>
+ <path class="fil1w" d="M1269.4 3683.82l730.6 -1265.43 730.6 1265.43 -1461.2 0zm1553.3 105.35l-1645.4 0c-40.29,0 -65.33,-43.37 -45.19,-78.26l822.7 -1424.97c20.14,-34.89 70.23,-34.89 90.38,0l822.7 1424.97c20.14,34.89 -4.9,78.26 -45.19,78.26z"/>
+ <polygon class="fil1w" points="1936.62,2710.77 1777.6,3236.45 2008.45,3112.98 1952.95,3465.37 1906.99,3405.02 1947.14,3626.2 2073.63,3444.33 2008.45,3472.99 2147.4,2981.77 1901.19,3112.98 2088.03,2713.55 "/>
+</symbol>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <use id="ISO_x0020_7010_x0020_W012_0" transform="scale(0.571429 0.571428)" x="-0" y="0" width="1750" height="1529.4" xlink:href="#ISO_x0020_7010_x0020_W012"/>
+ </g>
+</svg>

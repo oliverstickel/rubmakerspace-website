@@ -1,0 +1,6 @@
+{
+    "type": "equirectangular",
+    "panorama": "https://pannellum.org/images/bloomberg.jpg",
+    "compass": true,
+    "northOffset": 247.5
+}

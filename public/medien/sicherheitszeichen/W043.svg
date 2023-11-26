@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: Corel DESIGNER -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40mm" height="34.9578mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1000 873.94"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0w {fill:#F5CA2B}
+    .fil1w {fill:#21251E}
+   ]]>
+  </style>
+ </defs>
+<symbol id="ISO_x0020_7010_x0020_W043" viewBox="1125 -2415.23 1750 1529.4">
+ <polygon class="fil0w" points="2822.6,-938.69 1177.99,-938.69 2000.29,-2362.97 "/>
+ <path class="fil1w" d="M1269.4 -991.18l730.6 -1265.43 730.6 1265.43 -1461.2 0zm1553.3 105.35l-1645.4 0c-40.29,0 -65.33,-43.37 -45.19,-78.26l822.7 -1424.97c20.14,-34.89 70.23,-34.89 90.38,0l822.7 1424.97c20.14,34.89 -4.9,78.26 -45.19,78.26z"/>
+ <path class="fil1w" d="M2210.06 -1744.79c0,-58.36 -88.65,-58.37 -88.65,0 0,58.36 88.65,58.36 88.65,0zm-241.22 168.92l130.39 -71.66 99.37 172.18c14.55,25.2 52.65,3.2 38.11,-22l-137.64 -241.2c-2.62,-4.6 -6.76,-8.72 -11.6,-10.85l-88.82 -39.17c-11.48,-5.06 -22.38,-7.01 -34.9,-6.23l-101.37 6.28c-29.04,1.9 -26.19,45.82 2.85,43.91l110.12 -7.23 53.26 24.1 -125.79 69.14 -9.88 9.73 -62.31 101.88 -96.71 -69.91c-26.66,-19.28 -55.81,21.04 -29.14,40.31l118.72 85.82c13.55,9.84 28.76,5.05 36.88,-9.51l53.49 -87.46 2.62 4.76 46.64 219.13 -209.06 -48.29 152.79 52.26 -175.29 33.07 248.05 46.96 -132.29 141.55 179.25 -115.75 320.81 125.68 -243.41 -142.88 389.6 65.49 -359.84 -99.88 310.89 -32.41 -96.57 -26.46 67.8 -14.55 -149.82 15.21 99.22 22.16 -218.28 8.27 132.95 -57.55 -232.17 1.98 163.38 11.24 -190.46 45.28 -51.83 -243.41z"/>
+</symbol>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <use id="ISO_x0020_7010_x0020_W043_0" transform="scale(0.571429 0.571428)" x="-0" y="0" width="1750" height="1529.4" xlink:href="#ISO_x0020_7010_x0020_W043"/>
+ </g>
+</svg>

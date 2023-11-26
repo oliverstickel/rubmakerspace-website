@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: Corel DESIGNER -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40mm" height="40mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1000 1000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1p {fill:#0E1313}
+    .fil2p {fill:#A1262D}
+    .fil0p {fill:white}
+   ]]>
+  </style>
+ </defs>
+<symbol id="ISO_x0020_7010_x0020_P018" viewBox="1125 -904.17 1750 1750">
+ <circle class="fil0p" cx="2000" cy="-29.17" r="787.5"/>
+ <rect class="fil1p" x="1838.29" y="138.77" width="728.62" height="82.7"/>
+ <path class="fil1p" d="M1883.64 -187.41l-250.46 64.72c-27.3,7.05 -43.86,35.16 -36.8,62.46 7.05,27.3 35.16,43.86 62.46,36.8l291.38 -75.3 22.27 -37.53 0 130.15 -224.1 0c-10.04,0 -20.56,4.87 -27.66,11.97l-233.81 233.81c-22.89,22.89 -22.89,60.36 0,83.25 22.89,22.89 60.36,22.89 83.25,0l123.25 -123.25 0 174.44c0,32.38 26.49,58.87 58.87,58.87 32.38,0 58.87,-26.49 58.87,-58.87l0 -262.49c118.87,0 237.73,0 356.6,0l0 -422.13c0,-99.42 -131.85,-133.56 -180.82,-51.03l-103.3 174.12zm294.52 -358.56c0,-57.29 -46.44,-103.74 -103.74,-103.74 -57.29,0 -103.73,46.44 -103.73,103.74 0,57.29 46.44,103.74 103.73,103.74 57.3,0 103.74,-46.44 103.74,-103.74z"/>
+ <path class="fil2p" d="M2699.14 -29.17c0,-386.12 -313.01,-699.13 -699.14,-699.13 -168.42,0 -322.92,59.55 -443.61,158.75l986.38 981.02c97.75,-120.25 156.37,-273.59 156.37,-440.64zm-1241.91 -440.64c-97.74,120.25 -156.37,273.59 -156.37,440.64 0,386.12 313.01,699.13 699.13,699.13 168.42,0 322.92,-59.56 443.61,-158.76l-986.38 -981.02zm1417.77 440.64c0,-483.25 -391.75,-875 -875,-875 -483.25,0 -875,391.75 -875,875 0,483.25 391.75,875 875,875 483.25,0 875,-391.75 875,-875z"/>
+</symbol>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <use id="ISO_x0020_7010_x0020_P018_0" transform="scale(0.571429 0.571429)" x="-0" y="-0" width="1750" height="1750" xlink:href="#ISO_x0020_7010_x0020_P018"/>
+ </g>
+</svg>

@@ -1,0 +1,3 @@
+- Most of the content here is licensed CC BY-SA 4.0 - https://creativecommons.org/licenses/by-sa/4.0/
+- Some of the content here is not under an open license
+- The most convenient way to view which license applies are the endnotes for each page on the website version of this content at https://makerspace.rub.de

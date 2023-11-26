@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Calendar</title>
+  <script src="javascripts/ical.js"></script> <!-- calls ical.js library to parse the ics-data from the calendar file into data the fullcalendar-library can work with -->
+  <script src="javascripts/index.global.min.js"></script> <!-- calls the fullcalendar.js library -->
+  <link rel="stylesheet" href="stylesheets/variables.css"> <!-- this calls the variables holding the "core"-Design for the entire Website like colors-codes etc. -->
+  <link rel="stylesheet" href="stylesheets/calendar.css"> <!-- this calls the specific Design for the calendar, and can use the variables of the file above -->
+</head>
+<body>
+  <div class="calendar-wrapper">
+    <div id='form-container'></div> <!-- this div holds the contact form -->
+    <div id='calendar' style="border: none;"></div> <!-- this div holds the calendar -->
+  </div>
+  <script src="javascripts/ics_calendar.js"></script> <!-- this calls the js that is responsible for everything around the calendar and contact form -->
+</body>
+</html>

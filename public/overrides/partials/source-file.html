@@ -1,0 +1,33 @@
+{% import "partials/language.html" as lang with context %}
+
+<!-- taken from 
+https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
+
+<hr />
+<div class="md-source-file">
+<small>
+
+    <!-- mkdocs-git-revision-date-localized-plugin -->
+    {% if page.meta.git_revision_date_localized %}
+    {{ lang.t("source.file.date.updated") }}:
+    {{ page.meta.git_revision_date_localized }}
+    {% if page.meta.git_creation_date_localized %}
+    /
+        {{ lang.t("source.file.date.created") }}:
+        {{ page.meta.git_creation_date_localized }}
+    <br>
+    <br>
+    Lizenz: <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">Creative Commons - Namensnennung - Weitergabe unter gleichen Bedingungen - 4.0 International</a>
+    <br>
+    Quellenangabe als: "Titel, RUB-Makerspace-Team, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>" 
+    <br>
+    Für Zitate oder Material aus Fremdquellen gilt die Lizenz der Quelle.
+    {% endif %}
+
+    <!-- mkdocs-git-revision-date-plugin -->
+    {% elif page.meta.revision_date %}
+    {{ lang.t("source.file.date.updated") }}:
+    {{ page.meta.revision_date }}
+    {% endif %}
+</small>
+</div>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: Corel DESIGNER -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40mm" height="40mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4000 4000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0e {fill:#008E5E}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+ </defs>
+<symbol id="ISO_x0020_7010_x0020_E044" viewBox="-1500 -9850 7000 7000">
+ <rect class="fil0e" x="-1500" y="-9850" width="7000" height="7000"/>
+ <path class="fil1" d="M1096.75 -3475.81c468.77,0 852.27,-383.51 852.27,-852.26l0 -2374.89c0,-340.11 -605.75,-575.83 -605.75,-1054.4 0,-363.84 294.96,-658.8 658.8,-658.8 363.85,0 658.81,294.96 658.81,658.8 0,505.07 -605.77,714.29 -605.77,1054.4l0 2374.89c0,468.73 383.51,852.26 852.27,852.26 468.76,0 852.26,-383.51 852.26,-852.26l0 -3106.99c0,-966.66 -790.9,-1757.57 -1757.58,-1757.57 -966.66,0 -1757.57,790.91 -1757.57,1757.57l0 3106.99c0,468.75 383.51,852.26 852.26,852.26z"/>
+</symbol>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <use id="ISO_x0020_7010_x0020_E044_0" transform="scale(0.571429 0.571429)" x="-0" y="-0" width="7000" height="7000" xlink:href="#ISO_x0020_7010_x0020_E044"/>
+ </g>
+</svg>

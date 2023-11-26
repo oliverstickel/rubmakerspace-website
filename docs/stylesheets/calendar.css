@@ -1,0 +1,226 @@
+html, body {
+    overflow: hidden;
+}
+
+/* defines the general appearance of the iframe and contains fullcalendar specific variables */
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "RUBFlama", sans-serif;
+    color: var(--high-contrast-font) ;
+    background-color: var(--md-default-bg-color);
+
+    --fc-small-font-size: .85em;
+    --fc-page-bg-color: var(--tabs-color);
+    --fc-neutral-bg-color: rgba(208, 208, 208, 0.3);
+    --fc-neutral-text-color: var(--high-contrast-font);
+    --fc-border-color: #ddd;
+
+    --fc-button-text-color: white;
+    --fc-button-bg-color: var(--tabs-color);
+    --fc-button-border-color: var(--high-contrast-font);
+    --fc-button-hover-bg-color: var(--header-bg-color);
+    --fc-button-hover-border-color: var(--high-contrast-bg);
+    --fc-button-active-bg-color: rgba(var(--header-bg-color-for-alpha), 0.8);
+    --fc-button-active-border-color: var(--high-contrast-font);
+
+    --fc-event-bg-color: var(--tabs-color);
+    --fc-event-border-color: var(--high-contrast-font);
+    --fc-event-text-color: var(--high-contrast-font);
+    --fc-event-selected-overlay-color: rgba(0, 0, 0, 0.25);
+
+    --fc-more-link-bg-color: #d0d0d0;
+    --fc-more-link-text-color: inherit;
+
+    --fc-event-resizer-thickness: 8px;
+    --fc-event-resizer-dot-total-width: 8px;
+    --fc-event-resizer-dot-border-width: 1px;
+
+    --fc-non-business-color: rgba(215, 215, 215, 0.3);
+    --fc-bg-event-color: rgb(143, 223, 130);
+    --fc-bg-event-opacity: 0.3;
+    --fc-highlight-color: rgba(188, 232, 241, 0.3);
+    --fc-today-bg-color: rgba(255, 220, 40, 0.15);
+    --fc-now-indicator-color: red;
+
+    --fc-list-event-dot-width: 10px;
+    --fc-list-event-hover-bg-color: var(--header-bg-color);
+}
+
+/* Here are a few changes to the standard fullcalendar classes (starting with .fc) */
+.fc {
+    color: var(--high-contrast-font);
+    padding: 1px;
+    hyphens: auto;
+    text-wrap: balance;
+}
+
+.fc-event-main {
+    overflow-wrap: normal;
+    white-space: normal;
+    word-break: normal;
+    overflow: hidden; 
+}
+
+.fc-event {
+    border-style: none;
+    padding: 2px;
+    margin: 2px;      
+}
+
+.fc-list-event:hover, 
+.fc-list-event:hover a, 
+.fc-list-event:hover .fc-event-title, 
+.fc-list-event:hover .fc-event-time {
+    color: white !important;
+    cursor: pointer;
+}
+
+.fc-list-event:hover .fc-list-event-dot {
+    border-bottom-color: white !important;
+    border-top-color: white !important;
+    border-left-color: white !important;
+    border-right-color: white !important;
+    cursor: pointer;
+}
+
+.fc-daygrid-event.future-event:hover {
+    background-color: var(--header-bg-color) !important;
+}
+
+.fc-daygrid-event.future-event:hover div,
+.fc-daygrid-event.future-event:hover div * {
+    color: white !important;
+}
+
+.fc-daygrid-event:hover {
+    cursor: pointer;
+}
+
+.fc-daygrid-event:hover div,
+.fc-daygrid-event:hover div * {
+    cursor: pointer;
+}
+
+.fc .fc-toolbar-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
+    margin-left: 0.75rem;
+}
+
+/* The classes defining the design of the contact form */
+#form-container {
+    display: block;
+}
+
+.form {
+    position: relative;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    z-index: 5;
+    padding: 20px;
+    background-color: var(--md-default-bg-color);
+    border-radius: var(--border-radius);
+    border: var(--header-bg-color);
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-field label {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    color:var(--high-contrast-font);
+    font-size: 18px;
+    background-color: var(--high-contrast-bg);
+    padding: 2px;
+    border-radius: var(--border-radius);
+    border-style: none;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.form-field textarea {
+    resize: vertical;
+}
+
+
+/* Design of the text-field of the contact form that holds the selected event informations. */
+.event-subject p {
+    width: 100%;
+    height: fit-content; 
+    color:var(--high-contrast-font);
+    font-size: 18px;
+    padding: 2px;
+    border-color: var(--contact-form);
+    line-height: 1.5;
+}
+
+/* Class-changes needed for the "show/hide past events-function" */
+.past-event {
+    display: none;
+}
+
+.fc-list-event.past-event {
+    border-color: transparent;
+}
+
+.fc-list-day.fc-day.fc-day-past {
+    display: none;
+}
+
+/* .md-button Änderungen --> */
+.form-field input.md-button {
+    border-radius: var(--border-radius);
+    color: white;
+    border: 0.1rem solid;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0.625em;
+    transition: color 125ms,background-color 125ms,border-color 125ms;
+    text-align: center;
+    margin: auto;
+}
+
+.form-field input.md-button:is(:focus) {
+    border-radius: var(--border-radius);
+    color: white;
+    border-color: white;
+}
+
+#submit-button:is(:hover), #close-button:is(:hover) {
+    background-color: var(--hover-color);
+    border-color: var(--header-bg-color);
+}
+
+#submit-button {
+    background-color: green;
+    position: relative;
+}
+
+#close-button {
+    background-color: darkred;
+    position: relative;
+}
+
+#button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: Corel DESIGNER -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40mm" height="40mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1000 1000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0m {fill:#004873}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+ </defs>
+<symbol id="ISO_x0020_7010_x0020_M012" viewBox="1125 2212.5 1750 1750">
+ <circle class="fil0m" cx="2000" cy="3087.5" r="875"/>
+ <path class="fil1" d="M1882.21 3018.07l0 208.17c-0.05,2.86 -1.37,4.83 -3.56,8.17l-26.49 40.27 115.14 -63.29 59.93 -132.04c20.11,-46.42 23.56,-44.17 19.42,-68.51l-16.85 -98.92c-3.22,-18.89 20.81,-23.3 24.08,-5.01l18.27 102.29c3.83,21.45 3.84,28.92 -11.6,60.16l-102.51 225.85c-33.6,74.01 73.9,122.25 107.29,48.68l125.3 -276.07c8.45,-18.61 7.57,-26.63 4.05,-46.78l-51.36 -294.03c-6.67,-29.5 -27.39,-45.33 -57.28,-45.33l-128.33 0c-22.73,0 -39.18,12.75 -49.88,32.75l-124.12 232.49c-7.22,17.55 -18.54,19.09 -23.74,21.85l-244.54 89.5c-85.54,28.15 -41.38,140.38 33.79,115.54l277.94 -101.76c19.7,-7.22 35.4,-14.84 46.77,-37.28 2.68,-5.29 5.03,-8.56 8.27,-16.71z"/>
+ <polygon class="fil1" points="2135.14,3256.46 2720.23,2934.86 2692.31,2841.05 2200.7,3111.27 "/>
+ <path class="fil1" d="M1420.59 3540.07l65.97 72.89 450.59 -247.67c-27.2,-42.61 -3.34,-83.93 9.61,-114.44l-526.17 289.22z"/>
+ <ellipse class="fil1" transform="matrix(0.267241 -0.0533532 0.0535943 0.266038 2022.77 2515.38)" rx="422.9" ry="424.98"/>
+</symbol>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <use id="ISO_x0020_7010_x0020_M012_0" transform="scale(0.571429 0.571429)" x="-0" y="-0" width="1750" height="1750" xlink:href="#ISO_x0020_7010_x0020_M012"/>
+ </g>
+</svg>

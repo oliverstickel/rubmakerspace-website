@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: Corel DESIGNER -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40mm" height="34.9578mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 4000 3495.78"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0w {fill:#F5CA2B}
+    .fil1w {fill:#21251E}
+   ]]>
+  </style>
+ </defs>
+<symbol id="ISO_x0020_7010_x0020_W027" viewBox="-1500 2805.75 7000 6117.6">
+ <polygon class="fil0w" points="5290.4,8711.91 -1288.06,8711.91 2001.17,3014.79 "/>
+ <path class="fil1w" d="M-922.41 8501.93l2922.41 -5061.73 2922.4 5061.73 -5844.81 0zm6213.22 421.41l-6581.62 0.01c-161.14,0 -261.32,-173.49 -180.75,-313.05l3290.81 -5699.88c80.57,-139.55 280.93,-139.55 361.5,0l3290.81 5699.87c80.57,139.56 -19.61,313.05 -180.75,313.05z"/>
+ <path class="fil1w" d="M2330.18 6809.3c0,-182.1 -147.62,-329.72 -329.72,-329.72 -182.1,0 -329.73,147.62 -329.73,329.72 0,182.1 147.63,329.72 329.73,329.72 182.1,0 329.72,-147.62 329.72,-329.72zm959.74 -585.39l-827.12 522.39 938.91 267.67 -978.25 -7.7 645.15 732.79 -818.79 -535.37 146.56 965.26 -399.37 -893.05 -398.56 891.26 146.85 -967.2 -817.15 534.3 646.44 -734.26 -976.29 7.69 940.8 -268.21 -825.47 -521.34 936.45 283 -412.56 -884.87 634.79 744.36 131.32 -967.45 131.59 969.39 633.52 -742.87 -413.39 886.64 934.57 -282.43zm-878.59 585.39c0,-226.92 -183.95,-410.88 -410.87,-410.88 -226.93,0 -410.88,183.96 -410.88,410.88 0,226.92 183.95,410.88 410.88,410.88 226.92,0 410.87,-183.96 410.87,-410.88z"/>
+</symbol>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <use id="ISO_x0020_7010_x0020_W027_0" transform="scale(0.571429 0.57143)" x="-0" y="0" width="7000" height="6117.6" xlink:href="#ISO_x0020_7010_x0020_W027"/>
+ </g>
+</svg>

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block announce %}
+  <a href="https://instagram.com/rubmakerspace"><span class="twemoji">{% include ".icons/fontawesome/brands/instagram.svg" %}</span>&nbsp;Instagram</a> &nbsp; <a href="{{ config.site_url }}kalender"> <span class="twemoji">{% include ".icons/material/calendar.svg" %}</span>&nbsp;Kalender</a> &nbsp; <a href="{{ config.site_url }}feed_rss_updated.xml"><span class="twemoji">{% include ".icons/fontawesome/solid/rss.svg" %}</span>&nbsp;RSS-Feed</a>
+{% endblock %}
+
+{% block extrahead %}
+  <!-- RSS Feed -->
+  <link rel="alternate" type="application/rss+xml" title="RSS feed RUB-Makerspace" href="{{ config.site_url }}feed_rss_updated.xml">
+{% endblock %}
+
+{% block styles %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ base_url }}/stylesheets/footermatter.css">
+{% endblock styles %}
+
+{% block scripts %}
+    {{ super() }}
+{% endblock scripts %}
+
+{% block content %}
+    {{ super() }}
+  {% include "partials/footermatter.html" %}
+{% endblock %}
+
+{% block footer %}
+    {{ super() }}
+{% endblock %}

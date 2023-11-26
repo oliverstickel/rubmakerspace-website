@@ -1,0 +1,7 @@
+Gefahr,Risiko,Maßnahmen,Erfüllt?,Aufgabe
+Ungeschützt bewegte Maschinenteile,1,"Um Nutzende vor unbeabsichtigtem Eingreifen in die Maschinen zu schützen werden sie in der allgemeinen Sicherheitsunterweisung auf die Gefahren von Maschinen hingewiesen. Diese Unterweisungen werden dokumentiert",Ja,
+Ungeschützt bewegte Maschinenteile,1,Die Geräteinformationen (Anleitungen) sind vorhanden und frei zugänglich.,Ja,
+Ungeschützt bewegte Maschinenteile,1,Sicherheitseinrichtungen an Maschinen werden regelmäßig kontrolliert und im Wartungskalender dokumentiert.,Nein,dk: Orga Wartungskalender insb. nach Abschluss Sanierung UG. Bis 2022-12-3
+Teile mit gefährlichen Oberflächen,1,Einige der zu öffnenden Außenfenster haben einen sehr geringen Wandabstand sodass die Gefahr besteht sich beim Bedienen zu Klemmen. An den entsprechenden Stellen sind Hinweisschilder vorhanden.,Ja,
+Teile mit gefährlichen Oberflächen,1,Vor der Inbetriebnahme werden die Arbeitsmittel durch den Nutzenden augenscheinlich für mängelfrei befunden.,Ja,
+Vorlage,1,Beschreibung der Maßnahmen,Nein,"Wer: Was. Bis wann?"

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: Corel DESIGNER -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40mm" height="40mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2000 2000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0e {fill:#008E5E}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+ </defs>
+<symbol id="ISO_x0020_7010_x0020_E031" viewBox="-3750.01 -1808.34 3500.01 3500.01">
+ <rect class="fil0e" x="-3750.01" y="-1808.34" width="3500" height="3500"/>
+ <path class="fil1" d="M-2855.36 -913.7l1710.72 0 0 1710.72 -1710.72 0 0 -1710.72zm247.85 247.85l1215.02 0 0 1215.03 -1215.02 0 0 -1215.03zm607.5 272.02l0 0c184.53,0 335.49,150.96 335.49,335.49l0 0c0,184.53 -150.97,335.49 -335.49,335.49l-0 0c-184.52,0 -335.49,-150.97 -335.49,-335.49l0 -0c0,-184.53 150.97,-335.49 335.49,-335.49z"/>
+</symbol>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <use id="ISO_x0020_7010_x0020_E031_0" transform="scale(0.571428 0.571428)" x="0" y="0" width="3500.01" height="3500.01" xlink:href="#ISO_x0020_7010_x0020_E031"/>
+ </g>
+</svg>

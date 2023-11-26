@@ -1,0 +1,23 @@
+{% if footermatter_authors or footermatter_updated or footermatter_created %}
+<hr />
+<div class="md-source-file">
+<small>
+  <div class="footermatter">
+    {% if footermatter_created %}
+      Veröffentlichungsdatum: {{ footermatter_created }}. 
+    {% endif %}       
+    {% if footermatter_authors %}
+      <br>
+      <span class="footermatter-authors">
+      {%- for author in footermatter_authors -%}
+      Autor*innen: {{ author.name }}         
+      {%- endfor -%}
+      </span>
+    {% endif %}
+   <br>
+   <br>
+   Dieser Beitrag steht - anders als viele unserer Inhalte - nicht standardmäßig unter einer freien Lizenz. Wenn im Text keine abweichenden Angaben gemacht sind, gelten die üblichen Bestimmungen des Urheberrechts.  
+  </div>
+</small>
+</div>
+{% endif %}

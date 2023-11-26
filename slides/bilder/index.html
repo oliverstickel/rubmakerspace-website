@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Web-Presentations with Git and Markdown and nothing else.</title>
+
+		<meta name="description" content="Tutorial on how to generate presentations as websites with GitLab Pages and Markdown by using the revealjs framework. Not only for web developers!">
+		<meta name="author" content="Mathias Göbel, SUB Göttingen">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="../lib/reveal/dist/reset.css">
+		<link rel="stylesheet" href="../lib/reveal/dist/reveal.css">
+    <link rel="stylesheet" href="../lib/reveal/dist/theme/simple.css" id="theme">
+
+    <link rel="stylesheet" href="../lib/reveal/plugin/chalkboard/style.css">
+    <link rel="stylesheet" href="../lib/reveal/plugin/customcontrols/style.css">
+
+  
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../lib/reveal/plugin/highlight/monokai.css" id="highlight-theme">
+
+
+	</head>
+
+	<body>
+
+        <div class="reveal">
+            <div class="slides">
+              <section
+                data-markdown="slides.md"
+                data-separator="^\r?\n---\r?\n$"
+                data-separator-vertical="^\r?\n\|\|\|\r?\n$"
+                data-charset="UTF-8">
+              </section>
+            </div>
+        </div>
+
+        <script src="../lib/reveal/dist/reveal.js"></script>
+        <script src="../lib/reveal/plugin/zoom/zoom.js"></script>
+        <script src="../lib/reveal/plugin/notes/notes.js"></script>
+        <script src="../lib/reveal/plugin/search/search.js"></script>
+        <script src="../lib/reveal/plugin/markdown/markdown.js"></script>
+        <script src="../lib/reveal/plugin/highlight/highlight.js"></script>
+        <script src="../lib/reveal/plugin/menu/menu.js"></script>
+        <script src="../lib/reveal/plugin/toolbar/toolbar.js"></script>
+        <script src="../lib/reveal/plugin/customcontrols/plugin.js"></script>
+        <script src="../lib/reveal/plugin/chalkboard/plugin.js"></script>
+
+        <script>
+    
+          // Also available as an ES module, see:
+          // https://revealjs.com/initialization/
+          Reveal.initialize({
+            controls: false,
+            progress: false,
+            center: true,
+            hash: false,
+            history: false,
+            hideCursorTime: 3000,
+            loop: true,
+            shuffle: true,
+            autoSlide: 4000,
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, ]
+     
+          });
+    
+        </script>
+    
+      </body>
+    </html>
+    

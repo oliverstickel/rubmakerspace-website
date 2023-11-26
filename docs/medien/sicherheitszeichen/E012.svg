@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: Corel DESIGNER -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="40mm" height="40mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1000 1000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0e {fill:#008E5E}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+ </defs>
+<symbol id="ISO_x0020_7010_x0020_E012" viewBox="1125 2212.5 1750 1750">
+ <polygon class="fil0e" points="1125,2212.5 2875,2212.5 2875,3962.5 1125,3962.5 "/>
+ <polygon class="fil1" points="2428.46,2367.36 2573.43,2367.36 2573.43,2515.78 2721.86,2515.78 2721.86,2660.75 2573.43,2660.75 2573.43,2809.18 2428.46,2809.18 2428.46,2660.75 2280.04,2660.75 2280.04,2515.78 2428.46,2515.78 "/>
+ <circle class="fil1" cx="1768.26" cy="2855.98" r="77.1"/>
+ <path class="fil1" d="M1658.71 3063.07l21.07 0 0 712.53c0,51.11 77.56,51.11 77.56,0l0 -425.19c0,-11.05 21.52,-11.05 21.52,0l0 425.19c0,51.11 77.56,51.11 77.56,0l0 -712.53 19.62 0 0 304.02c0,46.81 71.04,46.81 71.04,0l0 -318.47 -0.7 0c-2.3,-52.12 -45.52,-93.91 -98.19,-93.91l-162.21 0c-52.67,0 -95.89,41.79 -98.19,93.91l-0.1 0 0 318.47c0,46.81 71.04,46.81 71.04,0l0 -304.02z"/>
+ <path class="fil1" d="M1727.43 2365.83l80.54 0 0 104.7 57.27 0c39.16,0 70.45,31.12 70.45,72.49l-335.97 0c0,-41.37 31.29,-72.49 70.45,-72.49l57.27 0 0 -104.7z"/>
+ <circle class="fil1" cx="1892.25" cy="2578.38" r="24.79"/>
+ <circle class="fil1" cx="1643.15" cy="2578.38" r="24.79"/>
+ <circle class="fil1" cx="1767.7" cy="2578.38" r="24.79"/>
+ <circle class="fil1" cx="1705.42" cy="2578.38" r="24.79"/>
+ <circle class="fil1" cx="1615.28" cy="2652.7" r="24.79"/>
+ <circle class="fil1" cx="1585.93" cy="2724.8" r="24.79"/>
+ <circle class="fil1" cx="1558.31" cy="2798.44" r="24.79"/>
+ <circle class="fil1" cx="1530.7" cy="2872.08" r="24.79"/>
+ <circle class="fil1" cx="1500.79" cy="2945.72" r="24.79"/>
+ <circle class="fil1" cx="1473.18" cy="3019.35" r="24.79"/>
+ <circle class="fil1" cx="1444.99" cy="3093.57" r="24.79"/>
+ <circle class="fil1" cx="1416.8" cy="3168.35" r="24.79"/>
+ <circle class="fil1" cx="1388.04" cy="3240.84" r="24.79"/>
+ <circle class="fil1" cx="1687.76" cy="2655.2" r="24.79"/>
+ <circle class="fil1" cx="1668.16" cy="2732.28" r="24.79"/>
+ <circle class="fil1" cx="1650.94" cy="2808.23" r="24.79"/>
+ <circle class="fil1" cx="1633.11" cy="2885.89" r="24.79"/>
+ <circle class="fil1" cx="1829.97" cy="2578.38" r="24.79"/>
+ <circle class="fil1" cx="1920.12" cy="2652.7" r="24.79"/>
+ <circle class="fil1" cx="1949.47" cy="2724.8" r="24.79"/>
+ <circle class="fil1" cx="1977.08" cy="2798.44" r="24.79"/>
+ <circle class="fil1" cx="2004.7" cy="2872.08" r="24.79"/>
+ <circle class="fil1" cx="2034.6" cy="2945.72" r="24.79"/>
+ <circle class="fil1" cx="2062.22" cy="3019.35" r="24.79"/>
+ <circle class="fil1" cx="2090.41" cy="3093.57" r="24.79"/>
+ <circle class="fil1" cx="2118.6" cy="3168.35" r="24.79"/>
+ <circle class="fil1" cx="2147.36" cy="3240.84" r="24.79"/>
+ <circle class="fil1" cx="1847.63" cy="2655.2" r="24.79"/>
+ <circle class="fil1" cx="1867.23" cy="2732.28" r="24.79"/>
+ <circle class="fil1" cx="1884.45" cy="2808.23" r="24.79"/>
+ <circle class="fil1" cx="1902.29" cy="2885.89" r="24.79"/>
+ <circle class="fil1" cx="1767.96" cy="2657.21" r="24.79"/>
+ <circle class="fil1" cx="1767.38" cy="2736.03" r="24.79"/>
+</symbol>
+ <g id="Ebene_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <use id="ISO_x0020_7010_x0020_E012_0" transform="scale(0.571429 0.571429)" x="-0" y="-0" width="1750" height="1750" xlink:href="#ISO_x0020_7010_x0020_E012"/>
+ </g>
+</svg>

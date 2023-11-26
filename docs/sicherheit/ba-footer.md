@@ -1,0 +1,1 @@
+<span style="font-size: small;">Gültig für den Bereich RUB-Makerspace. Standorte Papierform: XX, YY und ZZ.</span>

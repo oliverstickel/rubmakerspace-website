@@ -1,0 +1,61 @@
+:root {
+    --md-primary-fg-color: #003561;
+    --md-accent-fg-color: #651e38;
+    --md-default-bg-color: #fdffe000;
+    --md-text-font: "RUBFlama"; 
+    --md-footer-bg-color--dark: white;
+    --border-radius: 4px;
+    --rub-blau: 15, 54, 90;
+    --form-note-font-size: 14px;
+    --md-typeset-a-color: var(--link-color);
+}
+
+[data-md-color-scheme="slate"] {
+    --md-hue: 208;
+    --md-default-bg-color: hsla(var(--md-hue), 15%, 21%, 1);
+    --md-primary-fg-color: #7d7d7d;
+    --md-accent-fg-color: #003561;
+    --md-footer-bg-color--dark: white;
+    --header-bg-color: rgba(108, 27, 64, 1);
+    --header-bg-color-for-alpha: 108, 27, 64;
+    --counter-grid-color: #444444;
+    --tabs-color: rgba(15, 54, 90, 1);
+    --tabs-font-color: rgb(205, 205, 205);
+    --tabs-nav-int: rgba(108, 27, 64, 1);
+    --high-contrast-bg: rgb(25, 25, 25);
+    --high-contrast-font: rgb(240, 240, 240);
+    --keywords-bg: rgba(108, 27, 64, 1);
+    --md-footer-bg-color: rgba(15, 54, 90, 1);
+    --contact-form: rgb(51, 51, 51);
+    --hover-color:rgba(108, 27, 64, 1);
+    --link-color: rgba(141, 174, 16, 1);
+    --md-typeset-a-color: var(--link-color);
+}
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #003561;
+    --md-accent-fg-color: #003561;
+    --md-default-bg-color: #FFF5FA;
+    --md-text-font: "RUBFlama"; 
+    --md-footer-bg-color--dark: white;
+    --md-default-fg-color--light: rgb(47, 47, 47);
+    --header-bg-color: rgba(15, 54, 90, 1);
+    --header-bg-color-for-alpha: 15, 54, 90;
+    --counter-grid-color: #fff5fb;
+    --tabs-color: rgba(247, 164, 168, 1);
+    --tabs-font-color: rgb(58, 58, 58);
+    --tabs-nav-int: rgb(170, 210, 119);
+    --high-contrast-bg: rgb(228, 228, 228);
+    --high-contrast-font: rgb(21, 21, 21);
+    --keywords-bg: rgba(247, 164, 168, 1);
+    --md-footer-bg-color: rgba(15, 54, 90, 1);
+    --contact-form: rgb(199, 199, 199);
+    --hover-color: rgba(247, 164, 168, 1);
+    --link-color: rgba(15, 54, 90, 1);
+    --md-typeset-a-color: var(--link-color);
+}
+
+@font-face {
+    font-family: "RUBFlama";
+    src: url('../medien/flamapro-basic.woff') format('woff2');
+}
